@@ -1,0 +1,113 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    height: 100vh;
+    background: url(img.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .title{
+    color: rgb(109, 109, 11);
+    font-size: 80px;
+ }
+ /* input+add button */
+ .add-task-container-class{
+       width: 350px;
+       border: 2px solid white;
+       background-color: beige;
+       display: flex;   
+       border-radius: 10px;
+       box-shadow: 0 0 3px 2px;
+       padding: 2px;
+       padding-left: 1px;
+       margin-bottom: 20px;
+       margin-top: 20px;
+      
+ }
+ /* input box */
+ .input-task-class{
+    flex: 4;
+    border: 2px solid orange;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+    padding: 5px;
+    
+}
+/* add button */
+ .add-task-class{
+     flex:0.5;
+     border-radius: 5px;
+     box-shadow: 0 0 2px;
+ }
+ .add-task-class:hover{
+     background-color: rgb(57, 117, 20);
+     border: 1px solid rgb(219, 148, 43);
+ }
+ .input-task-class:hover{
+   border: 2px solid greenyellow;
+   background-color: rgb(107, 107, 42);
+    
+ }
+ .add-task-class,.input-task-class{
+     margin-left: 5px;
+ }
+ 
+
+ /* styling new added items */
+
+ .task-class{
+      display: flex;
+      border: 2px solid white;
+      width: 100%;
+      background-color: rgb(230, 230, 99);
+      display: flex;   
+      border-radius: 10px;
+      box-shadow: 0 0 3px 2px;
+      padding: 2px;
+      margin-bottom: 5px;
+      justify-content: space-between;
+      
+           
+ }
+
+ li{
+    flex: 4;
+   list-style-type: none;
+   padding: 2px;
+
+ }
+ .checkTask-class{
+    
+     background-color: rgb(33, 185, 19);
+     border-radius: 5px;
+     width: 20px;
+     height: 20px;
+     margin-right: 4px;
+ }
+ .deleteTask-class{
+    background-color: rgb(244, 17, 17);
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+ }
+ .checkTask-class:hover{
+    color: green;
+    border: 2px solid black;
+    background-color: white;
+ }
+ .deleteTask-class:hover{
+    color: rgb(244, 17, 17);
+    border: 2px solid black;
+    background-color: white;
+    
+ }
+
+
+ 
